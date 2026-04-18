@@ -23,12 +23,12 @@
     <section id="sobre">
         <h2>Sobre mim</h2>
 
-        <img src="https://c.pxhere.com/photos/53/a9/people_looking_horizon_back_person_outdoor_beach_sea-1213316.jpg!d" alt="Esse sou eu" title="Imagem de Perfil do Gabriel">
+        <img src="https://c.pxhere.com/photos/53/a9/people_looking_horizon_back_person_outdoor_beach_sea-1213316.jpg!d" alt="Esse sou eu" title="Imagem de perfil do Gabriel">
     
         <article>
 
             <p>
-                Me chamo Gabriel, sou desenvolvedor, adicionando mais um texto.
+                Me chamo Gabriel, sou desenvolvedor...
             </p>
         </article>
 
@@ -61,6 +61,42 @@
 
     </section>
 
+    <section id="habilidades">
+
+        <h2>Habilidades e tecnologias</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Tecnologia</th>
+                    <th>Nível</th>
+                    <th>Descrição</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Iniciante</td>
+                    <td>Capaz de construir estruturas de páginas web semânticas e responsivas</td>
+                </tr>
+
+                <tr>
+                    <td>CSS</td>
+                    <td>Básico</td>
+                    <td>Experiência com flexbox, grid e animações CSS</td>
+                </tr>
+
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Básico</td>
+                    <td>Desenvolvimento de scripts do lado do cliente para interações</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+
     <footer>
         <p>Direitos reservados a Gabriel</p>
 
@@ -68,6 +104,40 @@
             <h2>Contato</h2>
 
             <p>Tem um projeto em mente? Entre em contato!</p>
+
+            <form action="">
+
+                <label for="nome">Nome: </label>
+                <input type="text" name="nome" id="nome" required> <br>
+
+                <label for="email">E-mail: </label>
+                <input type="email" name="email" id="email" required> <br>
+
+                <label for="telefone">Telefone: </label>
+                <input type="tel" name="telefone" id="telefone"> <br>
+
+                <label for="assunto">Assunto: </label>
+                <select name="assunto" id="assunto">
+                    <option value="orcamento">Orçamento</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="outro">Outro</option>
+                </select>
+
+                <br>
+                <label for="mensagem">Mensagem: </label>
+                <textarea name="mensagem" id="mensagem" cols="20" rows="5" required></textarea>
+
+                <br>    
+                <input type="checkbox" name="inscricao id="inscricao>
+                <label for="inscricao">Deseja receber minha newsletter? fique por dentro.</label>
+
+                <br>
+
+                <input type="submit" value="Enviar mensagem">
+
+            </form>
+
+
 
             <address>
                 E-mail: <a href="mailto:dallabonagabriel@gmail.com">dallabonagabriel@gmail.com</a> <br>
